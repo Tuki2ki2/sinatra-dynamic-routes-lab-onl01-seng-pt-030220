@@ -46,7 +46,7 @@ elsif params[:operation] == "multiply"
 elsif params[:operation] == "divide"
   result = n1 / n2
 end
-result
+result.to_s
 # binding.pry
 end
 
