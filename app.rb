@@ -39,12 +39,11 @@ n2 = params[:number2].to_i
 result = nil
 if params[:operation] == "add"
   result = n1 + n2
-  binding.pry
-elsif params[:operator] == "subtract"
+elsif params[:operation] == "subtract"
   result = n1 - n2
-elsif params[:operator] == "multiply"
+elsif params[:operation] == "multiply"
   result = n1 * n2
-elsif params[:operator] == "divide"
+elsif params[:operation] == "divide"
   result = n1 / n2
 end
 result
