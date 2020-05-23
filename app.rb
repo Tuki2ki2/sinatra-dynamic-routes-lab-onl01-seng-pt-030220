@@ -38,7 +38,7 @@ n1 = params[:number1].to_i
 n2 = params[:number2].to_i
 result = nil
 binding.pry
-if params[:operator] == "add"
+if params[:operation] == "add"
   result = n1 + n2
 elsif params[:operator] == "subtract"
   result = n1 - n2
