@@ -48,7 +48,7 @@ elsif params[:operator] == "divide"
   result = n1 / n2
 end
 result
-binding.pry
+# binding.pry
 end
 
 
